@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="center_image_height">96dip</dimen>
+    <dimen name="center_images_padding">24dip</dimen>
+</resources>

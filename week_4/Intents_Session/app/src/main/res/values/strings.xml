@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Intents Session</string>
+    <string name="open_another_activity">Open Another Activity</string>
+    <string name="open_browser">Open Browser</string>
+    <string name="share">Share</string>
+</resources>

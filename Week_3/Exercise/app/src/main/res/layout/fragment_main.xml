@@ -1,0 +1,47 @@
+<!-- TODO(1)
+Review the following layout which will be used as the layout for our example fragment.
+Make any changes that you see fit, if any.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/center_images_padding"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <!--
+        By setting the width to 0dp and the weight to 1, we are instructing Android to fill the
+        remaining space (width).
+        This means that when putting all 3 icons in the same layer, they will be of equal size as
+        each one takes a third of the width. Furthermore, layout_weight override layout_width
+        -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/center_image_height"
+            android:layout_weight="1"
+            android:src="@drawable/ic_person"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/center_image_height"
+            android:layout_weight="1"
+            android:src="@drawable/ic_heart"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/center_image_height"
+            android:layout_weight="1"
+            android:src="@drawable/ic_android"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

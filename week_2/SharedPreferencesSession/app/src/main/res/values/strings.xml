@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Shared Preferences Session</string>
+    <string name="submit">Submit</string>
+</resources>

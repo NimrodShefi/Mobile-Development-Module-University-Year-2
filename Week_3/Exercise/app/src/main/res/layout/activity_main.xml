@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- TODO(3)
+    Add the name attribute to the FragmentContainerView element below (android:name) with the value being the name of the fragment class (in this case "com.example.fragmentsexercise.MainFragment")
+    Test that your implementation is working using the emulator.
+    -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- TODO(4)
+    Remove the above fragment element and replace it with a layout (e.g., RelativeLayout or
+    FrameLayout). Make the height and width match the parent and set an id.
+    -->
+
+
+
+</RelativeLayout>

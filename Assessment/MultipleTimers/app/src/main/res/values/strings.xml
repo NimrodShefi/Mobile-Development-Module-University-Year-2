@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Multiple Timers</string>
+    <string name="start">START</string>
+    <string name="pause">PAUSE</string>
+    <string name="hour">Hr</string>
+    <string name="colon">:</string>
+    <string name="minute">Min</string>
+    <string name="second">Sec</string>
+    <string name="timer_name">Timer Name:</string>
+    <string name="reset_button">RESET</string>
+    <string name="minus_1_min">-1 min</string>
+    <string name="plus_1_min">+1 min</string>
+    <string name="_00">00</string>
+    <string name="delete">Delete</string>
+    <string name="about_us">About Us</string>
+    <string name="about_app">This app was created by a student studying Applied Software Engineering as part of his/her Mobile Development module to help his/her parent is cooking in the kitchen where the parent will have the ability to easily create multiple timerData. \n \n Please give a review about your opinion of the app:</string>
+    <string name="submit">submit</string>
+    <string name="_0">0</string>
+    <string name="timer_list">Timer List</string>
+    <string name="timer_name_prefix">\"Timer \"</string>
+</resources>

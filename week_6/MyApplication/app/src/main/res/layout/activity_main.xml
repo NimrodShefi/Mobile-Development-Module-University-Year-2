@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--
+    Two examples of widgets that can be used to indicate progress in some task (e.g., while
+    waiting for a network request or database operation to complete, or even user progress
+    through a task.
+    -->
+    <!--
+    A spinning progress 'bar' that can be used to indicate to the user that an operation is loading
+    but you can't give specific feedback as to how much of this operation has been completed (or
+    how much is left.
+    -->
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/myprogressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        />
+    <!--
+    A horizontal progress bar that can be used to indicate how much of an operation is completed
+    to the user. The progress amount (a percentage) can be indicated here or changed programmatically
+    in an activity or fragment.
+    -->
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/myprogressbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="50"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

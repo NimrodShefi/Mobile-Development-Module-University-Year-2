@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToolbarsSession</string>
+    <string name="setting">Settings</string>
+    <string name="do_something_else">Do Something Else</string>
+</resources>
